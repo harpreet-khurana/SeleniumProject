@@ -3,19 +3,19 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="org.testing.testscripts.TC4_LoginPlayLike">
+      <class name="org.testing.testscripts.TC8_LoginLibrary">
         <methods>
+          <include name="mbeforesuite"/>
           <include name="maftersuite"/>
           <include name="closure"/>
-          <include name="mbeforesuite"/>
           <include name="maftertest"/>
           <include name="TestCase"/>
-          <include name="mbeforeclass"/>
+          <include name="mbeforetest"/>
           <include name="init"/>
           <include name="mafterclass"/>
-          <include name="mbeforetest"/>
+          <include name="mbeforeclass"/>
         </methods>
-      </class> <!-- org.testing.testscripts.TC4_LoginPlayLike -->
+      </class> <!-- org.testing.testscripts.TC8_LoginLibrary -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

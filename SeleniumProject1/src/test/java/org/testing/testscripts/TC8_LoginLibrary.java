@@ -48,7 +48,7 @@ public class TC8_LoginLibrary extends Base
 	{
 		System.out.println("Test Case annotation");
 		LoginPage login = new LoginPage(driver,pr);
-		login.signin("preetuniversityu@gmail.com", "White_star1");
+		login.signin("preetuniversityu1@gmail.com", "White_star1");
 		Thread.sleep(3000);
 		
 		HomePage home = new HomePage(driver,pr);
