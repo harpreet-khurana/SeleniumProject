@@ -9,7 +9,7 @@
      <!--   <class name="org.testing.testscripts.TC4_LoginPlayLike"/>-->
      <!--   <class name="org.testing.testscripts.TC5_LoginPlaySubscribe"/> -->
      <!--   <class name="org.testing.testscripts.TC6_LoginAddcomment"/>--> 
-            <class name="org.testing.testscripts.TC7_LoginWatchlater"/>
+     <!--   <class name="org.testing.testscripts.TC7_LoginWatchlater"/>-->
        	<class name="org.testing.testscripts.TC8_LoginLibrary"/>
 
     </classes>
